@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/koorye/code/os-section3/queue/main.c
+stdio.h
+-
+string.h
+-
+sys/ipc.h
+-
+sys/msg.h
+-
+sys/types.h
+-
+unistd.h
+-
+

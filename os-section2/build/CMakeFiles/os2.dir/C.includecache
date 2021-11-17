@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/koorye/code/os-section2/buffer_pool.h
+semaphore.h
+-
+
+/home/koorye/code/os-section2/consumer.h
+buffer_pool.h
+/home/koorye/code/os-section2/buffer_pool.h
+
+/home/koorye/code/os-section2/main.c
+pthread.h
+-
+semaphore.h
+-
+stdio.h
+-
+buffer_pool.h
+/home/koorye/code/os-section2/buffer_pool.h
+consumer.h
+/home/koorye/code/os-section2/consumer.h
+producer.h
+/home/koorye/code/os-section2/producer.h
+
+/home/koorye/code/os-section2/producer.h
+buffer_pool.h
+/home/koorye/code/os-section2/buffer_pool.h
+

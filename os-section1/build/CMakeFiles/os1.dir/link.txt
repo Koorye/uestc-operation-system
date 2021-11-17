@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/os1.dir/main.o CMakeFiles/os1.dir/philosopher.o  -o os1  -lpthread 

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/koorye/code/os-section1/main.c
+pthread.h
+-
+semaphore.h
+-
+stdio.h
+-
+philosopher.h
+/home/koorye/code/os-section1/philosopher.h
+
+/home/koorye/code/os-section1/philosopher.c
+philosopher.h
+/home/koorye/code/os-section1/philosopher.h
+semaphore.h
+-
+stdio.h
+-
+string.h
+-
+
+/home/koorye/code/os-section1/philosopher.h
+semaphore.h
+-
+

@@ -1,0 +1,3 @@
+/home/koorye/code/os-section3/queue/build/CMakeFiles/rebuild_cache.dir
+/home/koorye/code/os-section3/queue/build/CMakeFiles/edit_cache.dir
+/home/koorye/code/os-section3/queue/build/CMakeFiles/os3.dir
